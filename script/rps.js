@@ -1,12 +1,13 @@
-const game = () => {
-	game()
-	{
+class game {
+  constructor() {
 		alert('constructor');
-	}
-	function init()
-	{
-	}
+  }
+  init()
+  {
+	  
+  }
 }
+
 
 let playerScore = 0
 let computerScore = 0
