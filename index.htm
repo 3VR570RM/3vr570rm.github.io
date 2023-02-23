@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Scissors Paper</title>
+	<script src="script/rps.js" defer></script>
+    <script src="script/site.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<header>
+    <h1>Rock Scissors Paper</h1>
+    <h2>Let's play and choose:</h2>
+    <h2><i>First one with 5 points win!</i></h2>
+</header>
+
+<body background="background.jpg">
+    <div class="block1">
+        <button id="rock"><img src="Rock 4-5 Ratio.jpg" width="250"></button>
+        <button id="scissor"><img src="Scissors 4-5 Ratio.jpg" width="250"></button>
+        <button id="paper"><img src="Paper 4-5 Ratio.jpg" width="250"></button>
+    </div>
+    <div class="block2">
+        <div class="computer1">
+            <h2>The computer got:</h2>
+            <div id="computerselection">
+
+            </div>
+        </div>
+        <div class="result">
+            <h2>Result:</h2>
+            <div id="roundresult"></div>
+        </div>
+    </div>
+    <div class="block3">
+        <div class="computer2">
+            <p>Points of the computer:</p>
+            <div id="runningscorecomputer"></div>
+        </div>
+        <div class="player">
+            <p>Your points:</p>
+            <div id="runningscoreplayer"></div>
+        </div>
+    </div>
+</body>
+<footer>© 2023 Kim Raven </footer>
+
+</html>

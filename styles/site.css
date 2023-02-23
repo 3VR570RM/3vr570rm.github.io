@@ -1,0 +1,95 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: darkslategrey text-align: center;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+header {
+    text-align: center;
+
+}
+
+h1 {
+    font-family: Brush Script MT, serif;
+
+}
+
+h2 {
+    font-family: Monaco, Lucida Console, monospace;
+    color: grey;
+}
+
+.block1 {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    height: 370px;
+    width: 300px;
+    transition: all 0.07s;
+    margin: 50px;
+    border: 4px, solid black;
+    background-color: rgb(211, 208, 208);
+}
+
+.block2 {
+    display: flex;
+    align-self: center;
+    justify-content: space-around;
+    width: 1000px;
+    border-radius: 25px;
+    background-color: rgb(211, 208, 208);
+    font-family: Monaco, Lucida Console, monospace;
+    color: black;
+    font-size: medium;
+
+
+}
+
+.block3 {
+    display: flex;
+    justify-content: center;
+    font-family: Monaco, Lucida Console, monospace;
+    color: black;
+    font-size: medium;
+    gap: 50px;
+    margin-top: 25px;
+}
+
+.computer1 {
+    padding: 10px;
+    gap: 60px;
+    text-align: center;
+
+}
+
+.result {
+    padding: 10px;
+    gap: 60px;
+}
+
+.computer2,
+.player {
+    border: solid black;
+    border-radius: 25px;
+    padding: 10px;
+    background-color: rgb(211, 208, 208);
+    text-align: center;
+}
+
+.playing {
+    transform: scale(1.1);
+    border: 20px, solid black;
+    box-shadow: 0 0 1rem black;
+
+}
+
+footer {
+    text-align: center;
+    font-size: small;
+    padding: 15px;
+}
