@@ -3,6 +3,9 @@ const game = () => {
 	{
 		alert('constructor');
 	}
+	function init()
+	{
+	}
 }
 
 let playerScore = 0

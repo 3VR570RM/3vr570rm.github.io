@@ -1,5 +1,5 @@
 (function(exports, d) {
-  function domReady(fn, context) {
+  function domReadyLoaded(fn, context) {
 
     function onReady(event) {
       d.removeEventListener("DOMContentLoaded", onReady);
@@ -17,9 +17,9 @@
     d.attachEvent      && d.attachEvent("onreadystatechange", onReadyIe);
   }
 
-  exports.domReady = domReady;
+  exports.domReadyLoaded = domReadyLoaded;
 })(window, document);
 
-domReady(function(event) {
-	alert("dom is ready!");
+domReadyLoaded(function(event) {
+	game.init();
 });
